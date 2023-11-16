@@ -1,0 +1,52 @@
+
+.item{
+    display: flex;
+    position: relative;
+    margin-top:20px ;
+    width: 600px;
+    background-color: black;
+    padding: 15px;
+    color: #fff;
+    border-radius:8px ;   
+}
+.itemColor{
+    background-color: rgb(22, 170, 22);
+    display: flex;
+    position: relative;
+    margin-top:20px ;
+    width: 600px;
+    padding: 15px;
+    color: #fff;
+    border-radius:8px ;   
+}
+
+.text{
+    padding: 8px 15px;
+    max-width: 380px;
+    word-wrap: break-word
+}
+.right{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+}
+
+/* выполнено или не выполнено */
+.done{
+    
+    background-color: rgb(46, 155, 46);
+    color: #fff;
+    padding:8px ;
+    border: none;
+    border-radius: 5px;
+    
+   }
+   .delete{
+    border-radius: 5px;
+    color: #fff;
+    padding:8px ;
+    border: none;
+    margin-left: 8px;
+    background-color: rgb(150, 12, 12);
+   }
