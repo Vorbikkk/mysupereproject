@@ -12,7 +12,7 @@ const ToDoList=(props)=>{
               state>0 ?
               <div className={cl.itemColor} >
               <div>
-              <strong style={{marginTop:-15}}>{props.text.id}.</strong>
+              <strong style={{marginTop:-15}}>{props.text.number}.</strong>
             <p className={cl.text}>{props.text.title}</p>
               </div>
               <div className={cl.right}>
@@ -20,7 +20,7 @@ const ToDoList=(props)=>{
               </div>
            </div> :  <div className={cl.item} >
            <div>
-           <strong style={{marginTop:-15}}>{props.text.id}.</strong>
+           <strong style={{marginTop:-15}}>{props.text.number}.</strong>
          <p className={cl.text}>{props.text.title}</p>
            </div>
            <div className={cl.right}>

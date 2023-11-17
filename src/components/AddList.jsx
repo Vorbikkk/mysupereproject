@@ -1,15 +1,15 @@
 import React from "react";
 import ToDoList from "./ToDoList";
 
-const AddList=({elem,remove})=>{
+const AddList=({elem,remove,numbers})=>{
 
     return(
         <div >
     {
 
-   elem.map((items,index)=>
+   elem.map((items)=>
     
-      <ToDoList remove={remove} text={items}  key={items.id}  />
+      <ToDoList remove={remove} text={items} number={numbers}  key={items.id}  />
    )
             }
         </div>
