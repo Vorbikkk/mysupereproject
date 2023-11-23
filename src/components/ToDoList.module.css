@@ -8,6 +8,8 @@
     padding: 15px;
     color: #fff;
     border-radius:8px ;   
+    justify-content: space-between;
+    align-items: center;
 }
 .itemColor{
     background-color: rgb(50, 187, 9);
@@ -18,18 +20,33 @@
     padding: 15px;
     color: #fff;
     border-radius:8px ;   
+    justify-content: space-between;
+    align-items: center;
+
+}
+.numberPost{
+    position: absolute;
+    top: -25px;
 }
 
 .text{
-    padding: 8px 15px;
+    margin-bottom: -10px;
+    padding: 0px 15px;
     max-width: 380px;
     word-wrap: break-word
 }
-.right{
+.box_right{
     display: flex;
-    position: absolute;
-    right: 0px;
-    padding: 5px;
+    flex-direction: column;
+}
+.time{
+    margin-top: -2px;
+    align-self: flex-end;
+}
+
+.btn{
+    display: flex;
+    padding: 12px;
 }
 
 /* выполнено или не выполнено */

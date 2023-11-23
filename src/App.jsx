@@ -15,6 +15,7 @@ const App=()=>{
 const AddNewPost=(newPost)=>{
 setPost([...post,newPost])
 setTitle('')
+console.log(title.length)
  }
 
 
@@ -28,7 +29,7 @@ const remove=(p)=>{
 
   return(
    <div className='CenterList'>
-     <h1 style={{margin:'50px'}}>Главная</h1>    
+     <h1 style={{margin:'50px 0 20px 0'}}>ToDoList</h1>    
    <div>
    <AddPostList  numbers={createNumber} AddNewPost={AddNewPost} title={title} newTitle={setTitle}/>
    <AddList remove={remove} elem={post}    />
